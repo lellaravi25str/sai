@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test started Running:loginToApplication]]>
+    </line>
+    <line>
+      <![CDATA[Test is success:loginToApplication]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Selenium Projects\UIAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\loginToApplication_23_07_2017_05_16_12.png'> <img src='C:\Selenium Projects\UIAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\loginToApplication_23_07_2017_05_16_12.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression suite" duration-ms="21510" started-at="2017-07-23T11:45:52Z" finished-at="2017-07-23T11:46:14Z">
+    <groups>
+    </groups>
+    <test name="TC003_VerifyLoginWithDifferentRecords" duration-ms="21510" started-at="2017-07-23T11:45:52Z" finished-at="2017-07-23T11:46:14Z">
+      <class name="com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@46daef40]" name="setUp" is-config="true" duration-ms="13970" started-at="2017-07-23T17:15:52Z" finished-at="2017-07-23T17:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@46daef40]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2017-07-23T17:16:07Z" finished-at="2017-07-23T17:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords.loginToApplication(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@46daef40]" name="loginToApplication" duration-ms="4286" started-at="2017-07-23T17:16:07Z" data-provider="loginData" finished-at="2017-07-23T17:16:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test started Running:loginToApplication]]>
+            </line>
+            <line>
+              <![CDATA[Test is success:loginToApplication]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Selenium Projects\UIAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\loginToApplication_23_07_2017_05_16_12.png'> <img src='C:\Selenium Projects\UIAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\loginToApplication_23_07_2017_05_16_12.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@46daef40]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-23T17:16:12Z" finished-at="2017-07-23T17:16:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=TC003_VerifyLoginWithDifferentRecords.loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@46daef40] output=Test started Running:loginToApplication]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@46daef40]" name="endTest" is-config="true" duration-ms="1659" started-at="2017-07-23T17:16:12Z" finished-at="2017-07-23T17:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords -->
+    </test> <!-- TC003_VerifyLoginWithDifferentRecords -->
+  </suite> <!-- Regression suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression suite">
+<listeners>
+	<listener class-name="com.test.automation.UIAutomation.CustomListner.Listener"></listener>
+	<listener class-name="com.test.automation.UIAutomation.CustomListner.RetryListener"></listener>
+</listeners>
+
+
+  <test name="TC003_VerifyLoginWithDifferentRecords">
+    <parameter name="browser"   value="chrome"/>
+    <classes>
+      <class name="com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords"></class>
+    </classes>
+  </test> 
+  
+</suite> 

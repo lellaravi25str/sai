@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression suite]">
+  <listeners>
+    <listener class-name="com.test.automation.UIAutomation.CustomListner.Listener"/>
+    <listener class-name="com.test.automation.UIAutomation.CustomListner.RetryListener"/>
+  </listeners>
+  <test name="TC003_VerifyLoginWithDifferentRecords(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginToApplication" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords -->
+    </classes>
+  </test> <!-- TC003_VerifyLoginWithDifferentRecords(failed) -->
+</suite> <!-- Failed suite [Regression suite] -->
